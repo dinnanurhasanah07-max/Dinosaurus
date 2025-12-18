@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Portal Barcelona - Tema Resmi</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  :root {
+  --blau: #003b6f;
+  --grana: #a50044;
+  --bg: #f7f7f7;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: #111;
+  background: url('https://image.dnevnik.hr/media/images/1296x640/Jul2025/63110012-stadion-barcelone-camp-nou.jpg')
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(90deg, var(--blau), #0b4f86);
+  color: #fff;
+  padding: 14px 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  height: 56px;
+  width: 56px;
+  border-radius: 6px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  object-fit: cover;
+}
+
+.site-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Navigation */
+nav {
+  background: #fff;
+  padding: 8px 12px;
+  border-bottom: 4px solid var(--grana);
+}
+
+nav a {
+  margin-right: 12px;
+  color: var(--blau);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Main Content */
+.container {
+  max-width: 980px;
+  margin: 18px auto;
+  background: #fff;
+  padding: 14px;
+  border: 1px solid #eee;
+}
+
+.breaking {
+  background: var(--grana);
+  color: #fff;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.main-img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.title {
+  color: var(--blau);
+  font-size: 22px;
+  margin: 12px 0;
+  font-weight: 800;
+}
+
+p {
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Grid Section */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.card {
+  border: 1px solid #e6e6e6;
+  padding: 8px;
+  border-radius: 6px;
+  background: #fafafa;
+}
+
+.card img {
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Sidebar */
+.sidebar {
+  margin-top: 18px;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  background: #fff;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 12px;
+  margin-top: 18px;
+  color: #666;
+  font-size: 13px;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    height: 48px;
+    width: 48px;
+  }
+}
+
+</style>
+</head>
+<body>
+  <header class="header">
+    <img src="https://logos-world.net/wp-content/uploads/2020/04/Barcelona-Logo.png" alt="logo" class="logo">
+    <div>
+      <div class="site-title">Barça Daily — Berita Resmi FC Barcelona</div>
+      <div style="font-size:12px;opacity:0.9">Berita, hasil, dan analisis seputar Blaugrana</div>
+    </div>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Berita</a>
+    <a href="#">Jadwal</a>
+    <a href="#">Skor</a>
+    <a href="#">Analisis</a>
+  </nav>
+
+  <main class="container">
+    <div class="breaking">BREAKING: Barcelona resmi datangkan pemain baru — kontrak 4 tahun</div>
+
+    <img src="https://asset-2.tstatic.net/tribunnews/foto/bank/images/Momen-selebrasi-pemain-Barcelona-setelah-mencetak-gol-ke-gawang.jpg" class="main-img" alt="barca">
+
+    <h1 class="title">Barcelona Tunjukkan Kualitas — Menang 4-0 dan Lanjutkan Tren Positif</h1>
+    <p>Camp Nou bergemuruh saat tim kebanggaan mengamankan kemenangan meyakinkan. Taktik pressing tinggi dan kombinasi lini tengah menghasilkan peluang berbahaya sepanjang laga. Pelatih memuji disiplin tim dan performa pemain muda yang menunjukkan potensinya.</p>
+
+    <section class="grid" aria-label="artikel terkait">
+      <article class="card">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.KiiCOXK0odqwkJimYwuCtgHaEK?pid=Api&P=0&h=220" alt="analisis">
+        <p><strong>Analisis:</strong> Bagaimana 4-3-3 kembali efektif untuk Barca.</p>
+      </article>
+      <article class="card">
+        <img src="https://library.sportingnews.com/styles/twitter_card_120x120/s3/2024-10/GettyImages-2181233719.jpg?itok=LHUzJFHB" alt="pemain">
+        <p><strong>Pemain terbaik:</strong> Gelandang muda mencetak gol penentu.</p>
+      </article>
+      <article class="card">
+        <img src="https://i.ytimg.com/vi/xubOuN0cQPQ/maxresdefault.jpg" alt="fans">
+        <p><strong>Suporter:</strong> Euforia dan perayaan setelah laga.</p>
+      </article>
+    </section>
+
+    <aside class="sidebar">
+      <h3 style="color:var(--blau)">Berita Populer</h3>
+      <ul>
+        <li>Kapten perpanjang kontrak hingga 2028</li>
+        <li>Update cedera: bek sayap dipantau tim medis</li>
+        <li>Rumor: Minat klub Eropa pada striker muda</li>
+      </ul>
+    </aside>
+
+    <div class="footer">© 2025 Barça Daily • Semua hak dilindungi</div>
+  </main>
+</body>
+</html>
